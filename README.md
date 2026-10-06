@@ -216,7 +216,6 @@ Strategi yang dapat dilakukan:
 
 - Mempertahankan ketersediaan produk dengan demand tinggi.
 - Mengoptimalkan aktivitas marketing.
-- Meningkatkan customer retention.
 - Mengembangkan produk Technology dan Furniture sesuai kebutuhan regional.
 
 ---
@@ -243,8 +242,6 @@ Central membutuhkan perhatian khusus karena memiliki **Sales tinggi tetapi Profi
 
 Perusahaan dapat melakukan:
 
-- Audit terhadap discount.
-- Analisis profit margin berdasarkan kategori dan sub-category.
 - Evaluasi produk dengan margin rendah.
 - Membandingkan profitability antar state.
 - Menentukan batas discount yang tetap menjaga margin.
@@ -258,8 +255,6 @@ Consumer merupakan segmen dengan kontribusi penjualan terbesar.
 Strategi yang dapat diterapkan:
 
 - Customer loyalty program.
-- Personalized promotion.
-- Cross-selling produk terkait.
 - Bundling produk seperti **Phones, Chairs, dan Storage**.
 - Customer segmentation berdasarkan purchase behavior.
 
