@@ -8,7 +8,7 @@ Project ini bertujuan untuk menganalisis **kinerja penjualan Superstore berdasar
 
 Dengan menggunakan dataset Superstore, analisis dilakukan untuk mengidentifikasi **region dengan kontribusi terbesar, kategori produk yang paling diminati, state dengan performa tertinggi, serta segmen pelanggan yang paling berkontribusi terhadap penjualan**.
 
-Hasil analisis kemudian divisualisasikan menggunakan **Tableau / Power BI** untuk menghasilkan insight yang dapat mendukung pengambilan keputusan bisnis secara data-driven.
+Hasil analisis kemudian divisualisasikan menggunakan **Tableau** untuk menghasilkan insight yang dapat mendukung pengambilan keputusan bisnis secara data-driven.
 
 ---
 
