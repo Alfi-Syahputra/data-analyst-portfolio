@@ -329,7 +329,7 @@ Hasil analisis divisualisasikan menggunakan **Tableau / Power BI** dalam bentuk 
 - Customer Segment Analysis
 - Sales & Profit Comparison
 
-![Regional_sales_comparison](
+![Regional_sales_comparison](Regional_sales_comparison.png)
 
 ---
 
