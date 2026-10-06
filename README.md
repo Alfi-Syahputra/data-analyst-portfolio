@@ -362,7 +362,7 @@ Oleh karena itu, strategi bisnis tidak hanya perlu berfokus pada **peningkatan S
 **Muhammad Alfi Syahputra**
 
 📌 Data Analyst Portfolio Project  
-📊 Python | Pandas | Tableau 
+📊 Python | Pandas | Tableau | Excel
 
 ---
 
