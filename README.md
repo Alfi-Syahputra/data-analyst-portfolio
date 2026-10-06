@@ -20,12 +20,12 @@ Perbedaan karakteristik pelanggan, produk, dan tingkat profitabilitas antar wila
 
 Oleh karena itu, analisis ini dilakukan untuk membantu perusahaan:
 
-- 📍 Mengidentifikasi wilayah dengan performa penjualan tertinggi dan terendah.
-- 📦 Mengevaluasi kategori dan sub-category produk di setiap wilayah.
-- 👥 Memahami segmen pelanggan yang memberikan kontribusi terbesar.
-- 💰 Membandingkan performa **Sales dan Profit** antar region.
-- 🎯 Menentukan area yang membutuhkan strategi pemasaran dan penjualan tambahan.
-- 🔄 Mengidentifikasi strategi dari region berkinerja tinggi yang dapat dijadikan benchmark.
+1. Mengidentifikasi wilayah dengan performa penjualan tertinggi dan terendah.
+2. Mengevaluasi kategori dan sub-category produk di setiap wilayah.
+3. Memahami segmen pelanggan yang memberikan kontribusi terbesar.
+4. Membandingkan performa **Sales dan Profit** antar region.
+5. Menentukan area yang membutuhkan strategi pemasaran dan penjualan tambahan.
+6. Mengidentifikasi strategi dari region berkinerja tinggi yang dapat dijadikan benchmark.
 
 ---
 
@@ -77,12 +77,12 @@ Sebelum dilakukan analisis, beberapa tahap data preparation dilakukan untuk mema
 
 ### Proses yang dilakukan:
 
-- 🔍 Mengecek missing values.
-- 🔍 Mengecek data duplikat.
-- 📅 Mengubah tipe data tanggal dari string menjadi `datetime`.
-- 🔢 Memastikan tipe data numerik sesuai untuk kebutuhan analisis.
-- 🧹 Melakukan pengecekan kualitas data.
-- 📊 Menyiapkan dataset untuk kebutuhan visualisasi dan dashboard.
+1. Mengecek missing values.
+2. Mengecek data duplikat.
+3. Mengubah tipe data tanggal dari string menjadi `datetime`.
+4. Memastikan tipe data numerik sesuai untuk kebutuhan analisis.
+5. Melakukan pengecekan kualitas data.
+6. Menyiapkan dataset untuk kebutuhan visualisasi dan dashboard.
 
 ### Data Quality
 
@@ -91,22 +91,23 @@ Hasil pengecekan menunjukkan bahwa:
 - ✅ Tidak ditemukan missing values.
 - ✅ Tidak ditemukan data duplikat.
 - ✅ Data transaksi dapat digunakan untuk analisis setelah penyesuaian tipe data.
+- ✅ Ditemukan outlier namun tidak dilakukan penanganan dikeranakan kondisi yang wajar dan valid
 
 ---
 
 # 🔍 Key Insights
 
-## 1. 🗺️ Penjualan Berdasarkan Region
+## 1.Penjualan Berdasarkan Region
 
 Total penjualan Superstore mencapai:
 
-> ### 💰 **$2,297,200.86**
+> ###  **$2,297,200.86**
 > **Profit Margin: 12.47%**
 
 | Region | Sales |
 |---|---:|
-| 🥇 **West** | **$725,457.82** |
-| 🥈 **East** | **$678,781.24** |
+|  **West** | **$725,457.82** |
+|  **East** | **$678,781.24** |
 | Central | $501,239.89 |
 | South | $391,721.90 |
 
@@ -116,41 +117,41 @@ Kedua region tersebut dapat dianggap sebagai **tulang punggung penjualan perusah
 
 ---
 
-## 2. 🏙️ State sebagai Penggerak Regional
+## 2.State sebagai Penggerak Regional
 
 Performa regional sangat dipengaruhi oleh beberapa state utama.
 
 ### West
 Penjualan terutama didorong oleh:
 
-- 🇺🇸 **California**
-- 🇺🇸 **Washington**
+-  **California**
+-  **Washington**
 
 ### East
 Penjualan terutama didorong oleh:
 
-- 🇺🇸 **New York**
-- 🇺🇸 **Pennsylvania**
+-  **New York**
+-  **Pennsylvania**
 
 Hal ini menunjukkan bahwa analisis regional sebaiknya tidak berhenti pada level **Region**, tetapi juga perlu melihat kontribusi **State** untuk menemukan lokasi yang menjadi driver utama penjualan.
 
 ---
 
-## 3. 📦 Penjualan Berdasarkan Category
+## 3.Penjualan Berdasarkan Category
 
 **Technology** menjadi kategori dengan penjualan terbesar dan memiliki kontribusi kuat terutama dari **East dan West**.
 
 Sementara itu:
 
-- 🖥️ **Technology** → kategori dengan kontribusi penjualan terbesar.
-- 🛋️ **Furniture** → menunjukkan performa yang kuat di West.
-- 📚 **Office Supplies** → memberikan kontribusi besar terutama di West dan East.
+-  **Technology** → kategori dengan kontribusi penjualan terbesar.
+-  **Furniture** → menunjukkan performa yang kuat di West.
+-  **Office Supplies** → memberikan kontribusi besar terutama di West dan East.
 
 Temuan ini menunjukkan bahwa **preferensi produk dapat berbeda antar wilayah**, sehingga strategi inventory dan pemasaran sebaiknya mempertimbangkan karakteristik regional.
 
 ---
 
-## 4. 👥 Segmentasi Pelanggan
+## 4.Segmentasi Pelanggan
 
 Segmen **Consumer** memberikan kontribusi penjualan terbesar dibandingkan segmen lainnya.
 
@@ -190,9 +191,24 @@ Hal ini mengindikasikan adanya potensi masalah pada **profitability**, yang dapa
 
 ---
 
+# Conclusion
+
+Analisis menunjukkan bahwa **West dan East merupakan kontributor utama penjualan Superstore**, dengan California, Washington, New York, dan Pennsylvania menjadi beberapa state penting yang mendorong performa regional.
+
+Dari sisi produk, **Technology** menjadi kategori dengan kontribusi penjualan terbesar, sementara **Consumer** merupakan segmen pelanggan yang paling berkontribusi.
+
+Namun, analisis juga menunjukkan bahwa **Sales yang tinggi tidak selalu menghasilkan Profit yang tinggi**, seperti yang terlihat pada perbandingan Central dan South.
+
+Oleh karena itu, strategi bisnis tidak hanya perlu berfokus pada **peningkatan Sales**, tetapi juga pada **profitability, product mix, customer segmentation, pricing, dan regional strategy**.
+
+> **Key Takeaway:**  
+>  *"The goal is not only to sell more, but to understand where, what, and to whom we sell — and whether those sales generate sustainable profit."*
+
+---
+
 # 💡 Business Recommendations
 
-## 1. 🎯 Prioritaskan West & East
+## 1. Prioritaskan West & East
 
 West dan East dapat menjadi prioritas utama karena memberikan kontribusi penjualan terbesar.
 
@@ -205,7 +221,7 @@ Strategi yang dapat dilakukan:
 
 ---
 
-## 2. 📦 Optimalkan Product Strategy
+## 2. Optimalkan Product Strategy
 
 Perusahaan dapat menyesuaikan **product assortment** berdasarkan karakteristik masing-masing region.
 
@@ -221,7 +237,7 @@ Untuk kategori dengan performa rendah, perusahaan dapat menguji:
 
 ---
 
-## 3. 💰 Evaluasi Discount & Profitability
+## 3. Evaluasi Discount & Profitability
 
 Central membutuhkan perhatian khusus karena memiliki **Sales tinggi tetapi Profit relatif rendah** dibandingkan South.
 
@@ -235,7 +251,7 @@ Perusahaan dapat melakukan:
 
 ---
 
-## 4. 👥 Fokus pada Consumer Segment
+## 4. Fokus pada Consumer Segment
 
 Consumer merupakan segmen dengan kontribusi penjualan terbesar.
 
@@ -249,7 +265,7 @@ Strategi yang dapat diterapkan:
 
 ---
 
-## 5. 🔄 Regional Benchmarking
+## 5. Regional Benchmarking
 
 Perusahaan dapat menggunakan region dan state dengan performa tinggi sebagai **benchmark**.
 
@@ -291,15 +307,15 @@ Dengan alur tersebut, analisis tidak hanya menunjukkan **"berapa besar penjualan
 
 # 🛠️ Tools & Technologies
 
-### 🐍 Data Analysis
+###  Data Analysis
 - **Python**
 - **Pandas**
 - **Jupyter Notebook**
 
-### 📊 Business Intelligence
+###  Business Intelligence
 - **Tableau**
 
-### 🔧 Data Preparation
+###  Data Preparation
 - Data Cleaning
 - Data Transformation
 - Exploratory Data Analysis (EDA)
@@ -342,22 +358,8 @@ Superstore-Regional-Sales-Analysis/
 
 ---
 
-# 🎯 Conclusion
 
-Analisis menunjukkan bahwa **West dan East merupakan kontributor utama penjualan Superstore**, dengan California, Washington, New York, dan Pennsylvania menjadi beberapa state penting yang mendorong performa regional.
-
-Dari sisi produk, **Technology** menjadi kategori dengan kontribusi penjualan terbesar, sementara **Consumer** merupakan segmen pelanggan yang paling berkontribusi.
-
-Namun, analisis juga menunjukkan bahwa **Sales yang tinggi tidak selalu menghasilkan Profit yang tinggi**, seperti yang terlihat pada perbandingan Central dan South.
-
-Oleh karena itu, strategi bisnis tidak hanya perlu berfokus pada **peningkatan Sales**, tetapi juga pada **profitability, product mix, customer segmentation, pricing, dan regional strategy**.
-
-> **Key Takeaway:**  
-> 🚀 *"The goal is not only to sell more, but to understand where, what, and to whom we sell — and whether those sales generate sustainable profit."*
-
----
-
-## 👨‍💻 Project Author
+##  Project Author
 
 **Muhammad Alfi Syahputra**
 
