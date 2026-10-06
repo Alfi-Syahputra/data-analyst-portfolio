@@ -298,7 +298,6 @@ Dengan alur tersebut, analisis tidak hanya menunjukkan **"berapa besar penjualan
 
 ### 📊 Business Intelligence
 - **Tableau**
-- **Power BI**
 
 ### 🔧 Data Preparation
 - Data Cleaning
@@ -318,14 +317,6 @@ Hasil analisis divisualisasikan menggunakan **Tableau / Power BI** dalam bentuk 
 - Sales by Sub-Category
 - Customer Segment Analysis
 - Sales & Profit Comparison
-
-### 📑 Project Presentation
-
-📌 **PPT / PDF Presentation:**  
-`[Add your presentation link here]`
-
-📌 **Interactive Dashboard:**  
-`[Add your Tableau / Power BI link here]`
 
 ---
 
@@ -371,7 +362,7 @@ Oleh karena itu, strategi bisnis tidak hanya perlu berfokus pada **peningkatan S
 **Muhammad Alfi Syahputra**
 
 📌 Data Analyst Portfolio Project  
-📊 Python | Pandas | Tableau | Power BI
+📊 Python | Pandas | Tableau 
 
 ---
 
